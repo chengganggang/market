@@ -22,15 +22,15 @@ public class Manager extends Person {
 	/**
 	 * @param id
 	 * @param name
-	 * @param telphone
+	 * @param telephone
 	 * @param birthday
 	 * @param address
 	 * @param inDate
 	 * @param sex
 	 */
-	public Manager(String id, String name, String telphone, Date birthday,
+	public Manager(String id, String name, String telephone, Date birthday,
 			String address, Date inDate, String sex) {
-		super(id, name, telphone, birthday, address, inDate, sex);
+		super(id, name, telephone, birthday, address, inDate, sex);
 		// TODO Auto-generated constructor stub
 	}
 	/**
@@ -44,9 +44,9 @@ public class Manager extends Person {
 	 * @param sex
 	 * @param salary  ’»Î
 	 */
-	public Manager(String id, String name, String telphone, Date birthday,
+	public Manager(String id, String name, String telephone, Date birthday,
 			String address, Date inDate, String sex,double salary) {
-		super(id, name, telphone, birthday, address, inDate, sex);
+		super(id, name, telephone, birthday, address, inDate, sex);
 		this.salary = salary;
 		// TODO Auto-generated constructor stub
 	}

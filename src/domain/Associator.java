@@ -38,7 +38,7 @@ public class Associator extends Person {
 	/**
 	 * @param id
 	 * @param name
-	 * @param telphone
+	 * @param telephone
 	 * @param birthday
 	 * @param address
 	 * @param inDate
@@ -46,9 +46,9 @@ public class Associator extends Person {
 	 * @param score
 	 * @param identityNum
 	 */
-	public Associator(String id, String name, String telphone, Date birthday,
+	public Associator(String id, String name, String telephone, Date birthday,
 			String address, Date inDate, String sex,double score, String identityNum) {
-		super(id, name, telphone, birthday, address, inDate, sex);
+		super(id, name, telephone, birthday, address, inDate, sex);
 		this.score = score;
 		this.identityNum = identityNum;
 		// TODO Auto-generated constructor stub
@@ -56,15 +56,15 @@ public class Associator extends Person {
 	/**
 	 * @param id
 	 * @param name
-	 * @param telphone
+	 * @param telephone
 	 * @param birthday
 	 * @param address
 	 * @param inDate
 	 * @param sex
 	 */
-	public Associator(String id, String name, String telphone, Date birthday,
+	public Associator(String id, String name, String telephone, Date birthday,
 			String address, Date inDate, String sex) {
-		super(id, name, telphone, birthday, address, inDate, sex);
+		super(id, name, telephone, birthday, address, inDate, sex);
 		// TODO Auto-generated constructor stub
 	}
 

@@ -12,7 +12,7 @@ import java.sql.Date;
 public class Person {
 	private String id;
 	private String name;
-	private String telphone;
+	private String telpheone;
 	private Date birthday;
 	private String address;
 	private Date inDate;
@@ -38,7 +38,7 @@ public class Person {
 		super();
 		this.id = id;
 		this.name = name;
-		this.telphone = telphone;
+		this.telpheone = telphone;
 		this.birthday = birthday;
 		this.address = address;
 		this.inDate = inDate;
@@ -79,7 +79,7 @@ public class Person {
 	 * @return the telphone
 	 */
 	public String getTelphone() {
-		return telphone;
+		return telpheone;
 	}
 
 	/**
@@ -87,7 +87,7 @@ public class Person {
 	 *            the telphone to set
 	 */
 	public void setTelphone(String telphone) {
-		this.telphone = telphone;
+		this.telpheone = telphone;
 	}
 
 	/**

@@ -24,15 +24,15 @@ public class Clerk extends Person {
 	/**
 	 * @param id
 	 * @param name
-	 * @param telphone
+	 * @param telephone
 	 * @param birthday
 	 * @param address
 	 * @param inDate
 	 * @param sex
 	 */
-	public Clerk(String id, String name, String telphone, Date birthday,
+	public Clerk(String id, String name, String telephone, Date birthday,
 			String address, Date inDate, String sex) {
-		super(id, name, telphone, birthday, address, inDate, sex);
+		super(id, name, telephone, birthday, address, inDate, sex);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -47,16 +47,16 @@ public class Clerk extends Person {
 	 * 含有全部参数的构造方法
 	 * @param id
 	 * @param name
-	 * @param telphone
+	 * @param telephone
 	 * @param birthday
 	 * @param address
 	 * @param inDate
 	 * @param sex
 	 * @param salary
 	 */
-	public Clerk(String id, String name, String telphone, Date birthday,
+	public Clerk(String id, String name, String telephone, Date birthday,
 			String address, Date inDate, String sex,double salary) {
-		super(id, name, telphone, birthday, address, inDate, sex);
+		super(id, name, telephone, birthday, address, inDate, sex);
 		this.salary = salary;
 		// TODO Auto-generated constructor stub
 	}
