@@ -16,14 +16,14 @@ public interface ViewTransition {
 	 * 
 	 * @param username
 	 * @param password
-	 * @return 返回标识，0失败，1成功
+	 * @return 返回标识，失败，成功
 	 */
-	public int checkStatus(String username, String password);
+	public boolean checkStatus(String username, String password);
 
 	/**
 	 * @param username
-	 * @return 返回标识，0失败，1成功
+	 * @return 返回标识，失败，成功
 	 */
-	public int logout(String username);
+	public boolean logout(String username);
 
 }
