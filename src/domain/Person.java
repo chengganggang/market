@@ -10,13 +10,13 @@ import java.sql.Date;
  */
 
 public class Person {
-	String id;
-	String name;
-	String telphone;
-	Date birthday;
-	String address;
-	Date inDate;
-	String sex;
+	private String id;
+	private String name;
+	private String telphone;
+	private Date birthday;
+	private String address;
+	private Date inDate;
+	private String sex;
 	/**
 	 * 不含参数的构造方法
 	 */

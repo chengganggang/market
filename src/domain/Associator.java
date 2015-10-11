@@ -12,9 +12,9 @@ import java.sql.Date;
  */
 public class Associator extends Person {
 //	积分数
-	double score;
+	private double score;
 //	身份证号码
-	String identityNum;
+	private String identityNum;
 
 	/**
 	 * 

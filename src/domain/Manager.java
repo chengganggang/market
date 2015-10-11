@@ -11,7 +11,7 @@ import java.sql.Date;
  * @date 2015年10月11日 下午7:09:11
  */
 public class Manager extends Person {
-	double salary;
+	private double salary;
 	/**
 	 * 
 	 */
