@@ -17,9 +17,9 @@ public class Order {
 	// 记录商品信息的map，含有商品名和数量
 	private Map<Commodity, Integer> order;
 	// 总数量
-	private int totleCount;
+	private int totalCount;
 	// 总价
-	private double totlePrize;
+	private double totalPrize;
 	// 生成时间
 	private Date time;
 
@@ -43,8 +43,8 @@ public class Order {
 			double totlePrize, Date time) {
 		super();
 		this.order = order;
-		this.totleCount = totleCount;
-		this.totlePrize = totlePrize;
+		this.totalCount = totleCount;
+		this.totalPrize = totlePrize;
 		this.time = time;
 	}
 
@@ -67,7 +67,7 @@ public class Order {
 	 * @return the totleCount
 	 */
 	public int getTotleCount() {
-		return totleCount;
+		return totalCount;
 	}
 
 	/**
@@ -75,14 +75,14 @@ public class Order {
 	 *            the totleCount to set
 	 */
 	public void setTotleCount(int totleCount) {
-		this.totleCount = totleCount;
+		this.totalCount = totleCount;
 	}
 
 	/**
 	 * @return the totlePrize
 	 */
 	public double getTotlePrize() {
-		return totlePrize;
+		return totalPrize;
 	}
 
 	/**
@@ -90,7 +90,7 @@ public class Order {
 	 *            the totlePrize to set
 	 */
 	public void setTotlePrize(double totlePrize) {
-		this.totlePrize = totlePrize;
+		this.totalPrize = totlePrize;
 	}
 
 	/**
