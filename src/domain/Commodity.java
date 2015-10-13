@@ -10,26 +10,28 @@ import java.sql.Date;
  * @author Administrator
  * @date 2015年10月11日 下午7:41:01
  */
-
+/**
+ *商品基类
+ */
 public class Commodity {
 	// 货物名
-	String name;
+	private String name;
 	// 价格
-	double price;
+	private double price;
 	// 进价
-	double bid;
+	private double bid;
 	// 条形码
-	String iSN;
+	private String iSN;
 	// 生产日期
-	String manuDate;
+	private String manuDate;
 	// 质量
-	double mass;
+	private double mass;
 	// 保质期
-	String qgp;
+	private String qgp;
 	// 品牌
-	String brand;
+	private String brand;
 	// 注释
-	String remark;
+	private String remark;
 	/** 
 	 * @return the name
 	 */

@@ -9,13 +9,16 @@ import java.sql.Date;
  * @author Administrator
  * @date 2015年10月11日 下午9:07:01
  */
+/**
+ *继承商品类的食品子类
+ */
 public class Foodstuff extends Commodity{
 	//产地
 	String area;
 	//温度
-	double temperature;
+	private double temperature;
 	//生食还是熟食
-	boolean isRaw;
+	private boolean isRaw;
 	/**
 	 * @return the area
 	 */

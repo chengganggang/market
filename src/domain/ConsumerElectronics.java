@@ -9,14 +9,16 @@ import java.sql.Date;
  * @author Administrator
  * @date 2015年10月11日 下午8:49:01
  */
-
+/**
+ *继承商品类的电子产品子类
+ */
 public class ConsumerElectronics extends Commodity {
 	// 功率
-	double power;
+	private double power;
 	// 电压
-	double voltage;
+	private double voltage;
 	// 电流
-	double current;
+	private double current;
 	/**
 	 * 
 	 * @return the power

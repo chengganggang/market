@@ -9,13 +9,16 @@ import java.sql.Date;
  * @author Administrator
  * @date 2015年10月11日 下午9:07:01
  */
+/**
+ * 继承商品类的衣服子类
+ */
 public class Clothes extends Commodity{
 	//年龄段
-	int ageRange;
+	private int ageRange;
 	//款式
-	String style;
+	private String style;
 	//性别
-	char sex;
+	private char sex;
 	/**
 	 * @return the ageRange
 	 */
