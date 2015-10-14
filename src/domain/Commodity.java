@@ -6,12 +6,9 @@ package domain;
 import java.sql.Date;
 
 /**
- * @Description TODO
- * @author Administrator
- * @date 2015年10月11日 下午7:41:01
- */
-/**
- *商品基类
+ * @Description 商品基类
+ * @author ChengGang
+ * @date 2015年10月14日 下午7:25:03
  */
 public class Commodity {
 	// 货物名

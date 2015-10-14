@@ -5,12 +5,9 @@ package domain;
 
 import java.sql.Date;
 /**
- * @Description TODO
- * @author Administrator
- * @date 2015年10月11日 下午8:49:01
- */
-/**
- *继承商品类的电子产品子类
+ * @Description 继承商品类的电子产品子类
+ * @author ChengGang
+ * @date 2015年10月14日 下午7:24:05
  */
 public class ConsumerElectronics extends Commodity {
 	// 功率

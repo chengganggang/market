@@ -5,12 +5,9 @@ package domain;
 
 import java.sql.Date;
 /**
- * @Description TODU
- * @author Administrator
- * @date 2015年10月11日 下午9:07:01
- */
-/**
- *继承商品类的食品子类
+ * @Description 继承商品类的食品子类
+ * @author ChengGang
+ * @date 2015年10月14日 下午7:24:40
  */
 public class Foodstuff extends Commodity{
 	//产地
